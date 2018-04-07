@@ -13,5 +13,9 @@ export class HelloComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  changecourse()
+// tslint:disable-next-line:one-line
+{
+  this.coursename = 'Typescript';
+}
 }
